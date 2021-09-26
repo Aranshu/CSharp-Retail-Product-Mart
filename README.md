@@ -14,8 +14,9 @@ The interests of our customers are always top priority for us, so we hope you wi
 ### Vision
 "Retail Product Mart" pioneers communities built on commerce, sustained by trust, and inspired by opportunity. Our Company aspires to brings together millions of people every day on a local, national and international basis through an array of websites that focus on commerce, payments and communications.
 Our vision is to be Earth’s most customer-centric company, to build a place where people can come to find and discover anything they might want to buy online.
-
-![Banner](https://github.com/Aranshu/CSharp-Retail-Product-Mart/blob/master/Images/Banner.jpg?raw=true)
+<center>
+  ![Banner](https://github.com/Aranshu/CSharp-Retail-Product-Mart/blob/master/Images/Banner.jpg?raw=true)
+</center>
 
 ### POD Members
 
@@ -43,22 +44,22 @@ Our vision is to be Earth’s most customer-centric company, to build a place wh
 
 ## Application Screen Short
 
--Home Page
+- Home Page
 ![Home Page](https://github.com/Aranshu/CSharp-Retail-Product-Mart/blob/master/Images/Home%20Page.PNG?raw=true)
 
--Login Page
+- Login Page
 ![Login Page](https://github.com/Aranshu/CSharp-Retail-Product-Mart/blob/master/Images/Login%20Page.PNG?raw=true)
 
--Registration Page
+- Registration Page
 ![Registration Page](https://github.com/Aranshu/CSharp-Retail-Product-Mart/blob/master/Images/Registration%20Page.PNG?raw=true)
 
--Customer Home Page
+- Customer Home Page
 ![Customer Home Page](https://github.com/Aranshu/CSharp-Retail-Product-Mart/blob/master/Images/Customer%20Home%20Page.PNG?raw=true)
 
--Product Page
+- Product Page
 ![Product Page](https://github.com/Aranshu/CSharp-Retail-Product-Mart/blob/master/Images/Product%20Page.PNG?raw=true)
 
--Product Home Page
+- Product Home Page
 ![Product Home Page](https://github.com/Aranshu/CSharp-Retail-Product-Mart/blob/master/Images/Product%20Home%20Page%201.PNG?raw=true)
 
 ![Product Home Page](https://github.com/Aranshu/CSharp-Retail-Product-Mart/blob/master/Images/Product%20Home%20Page%202.PNG?raw=true)
@@ -67,13 +68,13 @@ Our vision is to be Earth’s most customer-centric company, to build a place wh
 
 ![Product Home Page](https://github.com/Aranshu/CSharp-Retail-Product-Mart/blob/master/Images/Product%20Home%20Page%204.PNG?raw=true)
 
--Wishlist Page
+- Wishlist Page
 ![Wishlist Page](https://github.com/Aranshu/CSharp-Retail-Product-Mart/blob/master/Images/Wishlist%20Page.PNG?raw=true)
 
--Cart Page
+- Cart Page
 ![Cart Page](https://github.com/Aranshu/CSharp-Retail-Product-Mart/blob/master/Images/Cart%20Page.PNG?raw=true)
 
--Checkout Page
+- Checkout Page
 ![Checkout Page](https://github.com/Aranshu/CSharp-Retail-Product-Mart/blob/master/Images/Checkout%20Page.PNG?raw=true)
 
 
