@@ -1,0 +1,27 @@
+﻿@model Retail_Product_Management_System.Models.ProductModel
+<div class="card m-2" style="min-width: 20vw;">
+    <img class="card-img-top mx-auto " src="@Model.Image_Name" alt="Card image cap" style="width: 20vw; height: 40vh">
+    <div class="card-body text-left">
+        <h4 class="card-title">@Model.Name : @Model.Id</h4>
+        @{
+            if (@Model.Rating <= 1)
+            {
+                <span class="badge badge-danger mb-2"><em>@Model.Rating  </em><img src="https://img.icons8.com/doodle/18/000000/star--v1.png" /></span>
+
+            }
+            else if (@Model.Rating <= 3)
+            {
+                <span class="badge badge-warning mb-2"><em>@Model.Rating  </em><img src="https://img.icons8.com/doodle/18/000000/star--v1.png" /></span>
+            }
+            else
+            {
+                <span class="badge badge-success mb-2"><em>@Model.Rating  </em><img src="https://img.icons8.com/doodle/18/000000/star--v1.png" /></span>
+            }
+        }
+        <p class="card-text">@Model.Description</p>
+        <h6 class="card-title mt-1 mb-3">Price @Model.Price</h6>
+        <a asp-controller="Customer" asp-action="ProductHome" asp-route-id="@Model.Id" class="btn btn-primary text-center">
+            BUY NOW
+        </a>
+    </div>
+</div>

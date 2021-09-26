@@ -1,0 +1,115 @@
+﻿@using Microsoft.AspNetCore.Http;
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>@ViewData["Title"] - Retail Product Mart</title>
+    <link rel="stylesheet" href="~/lib/bootstrap/dist/css/bootstrap.min.css" />
+    <link rel="stylesheet" href="~/css/site.css" />
+    <link href="~/css/Home.css" rel="stylesheet" />
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto&display=swap" rel="stylesheet">
+</head>
+<body style="font-family: 'Roboto', sans-serif; ">
+    <header>
+        @if (@Context.Session.GetString("token") == null)
+        {
+            <nav class="navbar navbar-expand-md navbar-light bg-light shadow mb-5 bg-white rounded">
+                <a href="#" class="navbar-brand">Retail Product Mart</a>
+                <button type="button" class="navbar-toggler" data-toggle="collapse" data-target="#navbarCollapse">
+                    <span class="navbar-toggler-icon "></span>
+                </button>
+                <div class="collapse navbar-collapse" id="navbarCollapse">
+                    <div class="navbar-nav">
+                        <a asp-area="" asp-controller="Home" asp-action="Index" class="nav-item nav-link active">
+                            <img src="https://img.icons8.com/office/16/000000/home--v1.png" />
+                            About
+                        </a>
+                        <a asp-area="" asp-controller="Home" asp-action="Team" class="nav-item nav-link">
+                            <img src="https://img.icons8.com/office/18/000000/user-group-man-woman.png" />
+                            Team
+                        </a>
+                        <a asp-area="" asp-controller="Home" asp-action="Contact" class="nav-item nav-link">
+                            <img src="https://img.icons8.com/fluency/18/000000/add-contact-to-company.png" />
+                            Contact
+                        </a>
+                        <a asp-area="" asp-controller="Home" asp-action="Privacy" class="nav-item nav-link">
+                            <img src="https://img.icons8.com/fluency/16/000000/privacy.png" />
+                            Privacy
+                        </a>
+                    </div>
+                    <div class="navbar-nav ml-auto">
+                        <a asp-area="" asp-controller="Home" asp-action="Login" class="nav-item nav-link">
+                            <img src="https://img.icons8.com/fluency/16/000000/login-rounded-right.png" />
+                            Sign in
+                        </a>
+                        <div class="nav-item pl-2 mb-2 mb-md-0">
+                            <a asp-area="" asp-controller="Home" asp-action="Register" type="button" class="btn btn-outline-info btn-md btn-rounded btn-navbar waves-effect waves-light">
+                                <img src="https://img.icons8.com/plasticine/20/000000/add-user-male.png" />
+                                Sign up
+                            </a>
+                        </div>
+                    </div>
+                </div>
+            </nav>
+        }
+        else
+        {
+            <nav class="navbar navbar-expand-md navbar-light bg-light shadow bg-white rounded">
+                <a href="#" class="navbar-brand">Retail Product Mart</a>
+                <button type="button" class="navbar-toggler" data-toggle="collapse" data-target="#navbarCollapse">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse" id="navbarCollapse">
+                    <div class="navbar-nav">
+                        <a asp-area="" asp-controller="Customer" asp-action="Index" class="nav-item nav-link active">
+                            <img src="https://img.icons8.com/office/16/000000/home--v1.png" />
+                            Home
+                        </a>
+                        <a asp-area="" asp-controller="Customer" asp-action="Product" class="nav-item nav-link">
+                            <img src="https://img.icons8.com/color/16/000000/product--v1.png" />
+                            Product
+                        </a>
+                        <a asp-area="" asp-controller="Customer" asp-action="Cart" class="nav-item nav-link">
+                            <img src="https://img.icons8.com/external-wanicon-flat-wanicon/16/000000/external-cart-cyber-monday-wanicon-flat-wanicon.png" />
+                            Cart
+                        </a>
+                        <a asp-area="" asp-controller="Customer" asp-action="Wishlist" class="nav-item nav-link">
+                            <img src="https://img.icons8.com/external-prettycons-flat-prettycons/17/000000/external-wishlist-shopping-prettycons-flat-prettycons.png" />
+                            Wishlist
+                        </a>
+                    </div>
+                    <div class="navbar-nav ml-auto">
+                        <a asp-area="" asp-controller="Customer" asp-action="Index" class="nav-item nav-link">
+                            <img src="https://img.icons8.com/ios/16/000000/guest-male.png" />
+                            @Context.Session.GetString("firstname")
+                        </a>
+                        <div class="nav-item pl-2 mb-2 mb-md-0">
+                            <a asp-area="" asp-controller="Home" asp-action="Logout" type="button" class="btn btn-outline-info btn-md btn-rounded btn-navbar waves-effect waves-light">
+                                <img src="https://img.icons8.com/fluency/16/000000/logout-rounded-left.png" />
+                                Logout
+                            </a>
+                        </div>
+                    </div>
+                </div>
+            </nav>
+        }
+    </header>
+
+    <main role="main" class="container-fluid">
+        @RenderBody()
+    </main>
+
+    <footer class="footer text-muted">
+        <div class="container">
+            &copy; 2021 - Retail Product Management System
+        </div>
+    </footer>
+    <script src="~/lib/jquery/dist/jquery.min.js"></script>
+    <script src="~/lib/bootstrap/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="~/js/site.js" asp-append-version="true"></script>
+    @RenderSection("Scripts", required: false)
+</body>
+</html>

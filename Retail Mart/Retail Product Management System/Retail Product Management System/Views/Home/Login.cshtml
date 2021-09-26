@@ -1,0 +1,31 @@
+﻿@model Retail_Product_Management_System.Models.LoginModel
+@{
+    ViewData["Title"] = "Login";
+}
+
+<h1 class="text-center">Login</h1>
+<section class="row">
+    <div class="col-lg order-lg-2 m-5">
+        <h2 class="text-center">Enter Credentials Here</h2><br>
+        <form class="col-lg order-lg-2 m-4" method="post" asp-action="Login">
+            <div class="form-group">
+                <label asp-for="Email">Email</label>
+                <input class="form-control" asp-for="Email" id="email" placeholder="Enter Your Email" required>
+                <span asp-validation-for="Email" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <label asp-for="Password">Password</label>
+                <input class="form-control" asp-for="Password" type="password" id="Password" placeholder="Enter Your Password" required>
+                <span asp-validation-for="Password" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <input type="submit" value="Login" class="btn btn-primary" />
+            </div>
+        </form>
+        <h6 class="text-danger">@ViewBag.Message</h6>
+    </div>
+    <figure class="col-lg order-lg-1 text-center m-5">
+        <img class="img-fluid w-75" src="https://www.getillustrations.com/packs/plastic-illustrations-scene-builder-pack/scenes/_1x/accounts%20_%20man,%20workspace,%20desk,%20laptop,%20login,%20user_md.png" alt="Login In">
+    </figure>
+</section>
+

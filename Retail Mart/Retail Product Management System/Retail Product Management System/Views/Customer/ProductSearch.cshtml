@@ -1,0 +1,28 @@
+﻿@model Retail_Product_Management_System.Models.ProductModel
+@{
+    ViewData["Title"] = "ProductSearch";
+}
+
+<h1 class="text-center m-5">Product List</h1>
+<div class="row m-5">
+    <div class="col-lg mx-auto">
+        <form class="form-inline justify-content-center" method="get" asp-action="Search">
+            <input class="form-control m-1" type="search" placeholder="Enter Product Name/Id ..." name="productNameOrId" />
+            <input type="submit" class="btn-sm btn-primary" />
+        </form>
+    </div>
+</div>
+<div class="card-deck m-auto text-center">
+    @{
+        if (Model != null)
+        {
+
+            Html.RenderPartial("_ProductCard", Model);
+        }
+        else
+        {
+            <h3 class="m-2">No Product Found For Your Search</h3>
+        }
+    }
+</div>
+

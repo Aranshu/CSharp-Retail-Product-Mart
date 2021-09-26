@@ -1,0 +1,41 @@
+﻿@{
+    ViewData["Title"] = "Contact";
+}
+
+<h1 class="text-center">Contact</h1>
+<section class="row align-items-center">
+    <form class="col-lg mt-4 mb-5 mr-5 ml-5 p-3 shadow-lg bg-white rounded">
+        <h2 class="text-center">Send me a Message</h2><br>
+        <div class="form-group">
+            <label for="name">Name</label>
+            <input class="form-control" type="text" name="name" id="name" placeholder="Enter Your Name" required>
+        </div>
+        <div class="form-group">
+            <label for="email">Email</label>
+            <input class="form-control" type="email" name="email" id="email" required placeholder="Enter Your Email">
+        </div>
+        <div class="form-group">
+            <label for="message">Message</label>
+            <textarea class="form-control" name="message" id="message" cols="8" rows="5" placeholder="Anything :)" required></textarea>
+        </div>
+        <div class="text-center">
+            <button type="submit" class="btn btn-primary">Submit</button>
+        </div>
+    </form>
+    <article class="col-lg text-center">
+        <div class="mt-4 mb-5 mr-5 ml-5 p-3 p-5 shadow-lg bg-white rounded">
+            <h2 class="p-3">Or Find Us Here</h2>
+            <a class="p-3 text-decoration-none" href="" title="Facebook"><img src="https://img.icons8.com/fluency/48/000000/facebook.png" /></a>
+            <a class="p-3 text-decoration-none" href="" title="Instagram"><img src="https://img.icons8.com/color/48/000000/instagram-new--v1.png" /></a>
+            <a class="p-3 text-decoration-none" href="" title="Twitter"><img src="https://img.icons8.com/color/48/000000/twitter--v1.png" /></a>
+            <a class="p-3 text-decoration-none" href="" title="Github"><img src="https://img.icons8.com/color/48/000000/github.png" /></a>
+        </div>
+        <div class="m-5 p-5 shadow-lg bg-white rounded">
+            <h2 class="p-3">Or Just Send Us Mail</h2>
+            <a class="p-3 text-decoration-none" href="mailto:"><img src="https://img.icons8.com/color/48/000000/gmail-new.png" /></a>
+            <a class="p-3 text-decoration-none" href="mailto:"><img src="https://img.icons8.com/color/48/000000/ms-outlook.png" /></a>
+        </div>
+    </article>
+</section>
+
+

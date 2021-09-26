@@ -1,0 +1,31 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.31515.178
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Authentication Service", "Authentication Service\Authentication Service.csproj", "{8A7508CF-F454-4C80-8E93-C95D14EB4209}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Authentication_Service_Test", "Authentication_Service_Test\Authentication_Service_Test.csproj", "{752EB95B-CC39-4162-9F2E-A5E930F8ADA2}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{8A7508CF-F454-4C80-8E93-C95D14EB4209}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{8A7508CF-F454-4C80-8E93-C95D14EB4209}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{8A7508CF-F454-4C80-8E93-C95D14EB4209}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{8A7508CF-F454-4C80-8E93-C95D14EB4209}.Release|Any CPU.Build.0 = Release|Any CPU
+		{752EB95B-CC39-4162-9F2E-A5E930F8ADA2}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{752EB95B-CC39-4162-9F2E-A5E930F8ADA2}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{752EB95B-CC39-4162-9F2E-A5E930F8ADA2}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{752EB95B-CC39-4162-9F2E-A5E930F8ADA2}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {4200904D-F32E-4A28-BE17-03F44DF631C7}
+	EndGlobalSection
+EndGlobal

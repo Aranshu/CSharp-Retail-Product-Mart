@@ -1,0 +1,42 @@
+﻿@model dynamic
+@{
+    ViewData["Title"] = "Wishlist";
+}
+
+<h1 class="text-center m-5">Wishlist</h1>
+
+<div class="card-deck m-auto">
+    @{
+        if (Model.customerWishlist == null)
+        {
+            <div class="text-center">
+                <h3>No Product is Present In  WishList</h3>
+            </div>
+        }
+        else
+        {
+            foreach (ProductModel product in Model.ProductList)
+            {
+
+
+                foreach (CustomerWishlistModel wishlist in Model.customerWishlist)
+                {
+                    if (product.Id == wishlist.ProductId)
+                    {
+                        <div class="card m-2 text-center" style="min-width: 20vw;">
+                            <img class="card-img-top mx-auto" src="@product.Image_Name" alt="Card image cap" style="width: 20vw; height: 40vh">
+                            <div class="card-body">
+                                <h5 class="card-title">@product.Name : @product.Id</h5>
+                                <p class="card-text">@product.Description</p>
+                                <p class="card-text"><small class="text-muted">@wishlist.DateAddedToWishlist</small></p>
+                            </div>
+                        </div>
+                    }
+
+                }
+            }
+        }
+
+    }
+</div>
+

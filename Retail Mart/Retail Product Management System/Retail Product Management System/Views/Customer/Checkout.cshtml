@@ -1,0 +1,19 @@
+﻿@using Microsoft.AspNetCore.Http;
+@{
+    ViewData["Title"] = "Checkout";
+}
+
+<h1 class="m-5 text-center">Checkout</h1>
+
+<div class="text-center align-content-center row">
+    <div class="col-lg m-5">
+        <img src="https://images.milledcdn.com/2018-07-12/vedqPn_9LRznZs0D/2A4Xv7nwqLDs.gif" alt="Checkout" style="width:auto; height:60vh;"/>
+    </div>
+    <div class="col-lg m-5">
+        <h2>
+            @Context.Session.GetString("firstname") your order will be delivered to @Context.Session.GetString("address")
+        </h2>
+        <p>Thanks For Choosing Us !!</p>
+        <p><a asp-controller="Customer" asp-action="Index">Buy More</a></p>
+    </div>
+</div>
