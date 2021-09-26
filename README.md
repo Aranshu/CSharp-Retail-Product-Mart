@@ -14,9 +14,8 @@ The interests of our customers are always top priority for us, so we hope you wi
 ### Vision
 "Retail Product Mart" pioneers communities built on commerce, sustained by trust, and inspired by opportunity. Our Company aspires to brings together millions of people every day on a local, national and international basis through an array of websites that focus on commerce, payments and communications.
 Our vision is to be Earth’s most customer-centric company, to build a place where people can come to find and discover anything they might want to buy online.
-<center>
-  ![Banner](https://github.com/Aranshu/CSharp-Retail-Product-Mart/blob/master/Images/Banner.jpg?raw=true)
-</center>
+
+![Banner](https://github.com/Aranshu/CSharp-Retail-Product-Mart/blob/master/Images/Banner.jpg?raw=true)
 
 ### POD Members
 
