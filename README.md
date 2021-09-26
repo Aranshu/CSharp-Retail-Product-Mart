@@ -46,6 +46,22 @@ Our vision is to be Earth’s most customer-centric company, to build a place wh
 ⚡ Made with ASP.Net (C#)\
 ⚡️ Well organized documentation
 
+![Features](https://github.com/Aranshu/CSharp-Retail-Product-Mart/blob/master/Images/Features.png?raw=true)
+
+
+---
+
+## How to use it ☝️
+
+- Run All The Api.
+- Configure the AppSetting.Json in Retail Product Management System Accouding to Api Address.
+- Now you can use Retail Product Mart portal User Interface.
+
+![How To Use](https://github.com/Aranshu/CSharp-Retail-Product-Mart/blob/master/Images/HowToUse.jpg?raw=true)
+
+
+---
+
 ## Application Screen Short
 
 ### Home Page
@@ -80,15 +96,6 @@ Our vision is to be Earth’s most customer-centric company, to build a place wh
 
 ### Checkout Page
 ![Checkout Page](https://github.com/Aranshu/CSharp-Retail-Product-Mart/blob/master/Images/Checkout%20Page.PNG?raw=true)
-
-
----
-
-## How to use it ☝️
-
-- Run All The Api.
-- Configure the AppSetting.Json in Retail Product Management System Accouding to Api Address.
-- Now you can use Retail Product Mart portal User Interface.
 
 
 ---
