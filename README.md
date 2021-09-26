@@ -60,11 +60,8 @@ Our vision is to be Earth’s most customer-centric company, to build a place wh
 
 - Product Home Page
 ![Product Home Page](https://github.com/Aranshu/CSharp-Retail-Product-Mart/blob/master/Images/Product%20Home%20Page%201.PNG?raw=true)
-
 ![Product Home Page](https://github.com/Aranshu/CSharp-Retail-Product-Mart/blob/master/Images/Product%20Home%20Page%202.PNG?raw=true)
-
 ![Product Home Page](https://github.com/Aranshu/CSharp-Retail-Product-Mart/blob/master/Images/Product%20Home%20Page%203.PNG?raw=true)
-
 ![Product Home Page](https://github.com/Aranshu/CSharp-Retail-Product-Mart/blob/master/Images/Product%20Home%20Page%204.PNG?raw=true)
 
 - Wishlist Page
