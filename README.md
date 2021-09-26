@@ -1,6 +1,8 @@
-# Retail Product Mart
+# Reatil Product Management System
 
-## About Us
+## Retail Product Mart
+
+### About Us
 Hello and welcome to Retail Product Mart, the place to find the best products category from clothing to electronics for every taste and occasion.
 We thoroughly check the quality of our goods, working only with reliable suppliers so that you only receive the best quality product.
 We at Retail Product Mart believe in high quality and exceptional customer service. 
@@ -11,11 +13,14 @@ We always keep an eye on the latest trends in each products category and put our
 We Aim to satisfy customers all over the world, and are thrilled to be a part of the industry.
 The interests of our customers are always top priority for us, so we hope you will enjoy our products as much as we enjoy making them available to you.
 
-## Vision
+### Vision
 "Retail Product Mart" pioneers communities built on commerce, sustained by trust, and inspired by opportunity. Our Company aspires to brings together millions of people every day on a local, national and international basis through an array of websites that focus on commerce, payments and communications.
 Our vision is to be Earth’s most customer-centric company, to build a place where people can come to find and discover anything they might want to buy online.
 
 ![Banner](https://github.com/Aranshu/CSharp-Retail-Product-Mart/blob/master/Images/Product%20Banner.png?raw=true)
+
+
+---
 
 ## POD Members
 
