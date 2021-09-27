@@ -150,7 +150,7 @@ namespace Retail_Product_Management_System.Services
                 try
                 {
                     httpClient.DefaultRequestHeaders.Accept.Clear();
-                    //httpClient.DefaultRequestHeaders.Add("Authorization", bearer);
+                    httpClient.DefaultRequestHeaders.Add("Authorization", bearer);
 
                     var response = httpClient.GetAsync("api/Product/GetProductByName/" + name);
 
