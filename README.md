@@ -30,7 +30,7 @@ Our vision is to be Earth’s most customer-centric company, to build a place wh
 |Chitwan |935174
 |Divyam Gogia |935157
 |Saksham Bathla |935363
-|Manav |93
+|Manav |935267
 
 ![Role](https://github.com/Aranshu/CSharp-Retail-Product-Mart/blob/master/Images/Role.png?raw=true)
 
