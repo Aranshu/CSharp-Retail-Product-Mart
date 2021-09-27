@@ -1,4 +1,4 @@
-# Reatil Product Management System
+# Retail Product Management System
 
 ## Retail Product Mart
 
@@ -27,7 +27,7 @@ Our vision is to be Earth’s most customer-centric company, to build a place wh
 |Name|Employee Id
 |---|---|
 |Aranshu Bansal (**Leader**)|935265
-|Chitwan |935174
+|Chitwan |935274
 |Divyam Gogia |935157
 |Saksham Bathla |935363
 |Manav |935267
